@@ -1,0 +1,8 @@
+arr:
+ - 1
+ - 2
+obj:
+ name: hww
+config1:
+  name: hww11
+  config: zzz
