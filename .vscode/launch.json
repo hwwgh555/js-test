@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "name": "Launch Program",
+      // 指定 调试入口
+      "program": "${workspaceFolder}/node-debugger/debugger.js",
+      "request": "launch",
+      // 初始时断点
+      "stopOnEntry": true,
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "node"
+    },
+    {
+      "name": "Attach",
+      "port": 9229,
+      "request": "attach",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "node"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "mock",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "<450557862@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^10.0.0",
+    "cosmiconfig": "^8.1.0"
+  }
+}
